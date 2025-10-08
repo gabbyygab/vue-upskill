@@ -2,8 +2,8 @@
 import { ref } from "vue";
 
 const products = [
-  { name: "shoe", price: 10 },
-  { name: "hat", price: 20 },
+  { name: "shoe", price: 10, quantity: 20 },
+  { name: "hat", price: 20, quantity: 30 },
 ];
 const productName = ref("");
 </script>
